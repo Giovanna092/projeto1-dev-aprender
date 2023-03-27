@@ -1,0 +1,33 @@
+O que é git + github
+<projeto>
+<projeto(alterado1)>
+
+controle de versões 
+se houver alterações temos um conflito
+git serve para controlar a versão
+merge -> escolhe qual codigo deve ser mantido
+
+
+git hub -> local para armazenar o codigo versionado pelo git
+
+git init -> inicia o controle de versão
+
+git status -> mostra o status {
+no commit yet -> não foi feita nenhuma versão de codigo
+untracked files -> arquivos que não foram adicionados
+}
+
+incluir arquivo ao controle de versão
+- git add "nome arquivo.<extensao>" -> adiciona o arquivo informado
+- git add . -> adiciona todos os arquivos alterados
+
+
+criando versões do codigo com commit
+git commit -m "m de mensagem" -> commita uma nova versão
+
+enviando alterações usando o git push
+git push -> enviar para servidor da nuvem{
+tem que definir para onde vai ser enviado, criar repositorio na nuvem (github)
+-copiar link do repositorio:
+ex: https://github.com/Giovanna092/projeto1-dev-aprender
+
