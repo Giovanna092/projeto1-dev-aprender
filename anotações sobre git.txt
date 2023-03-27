@@ -31,3 +31,13 @@ tem que definir para onde vai ser enviado, criar repositorio na nuvem (github)
 -copiar link do repositorio:
 ex: https://github.com/Giovanna092/projeto1-dev-aprender
 
+git remote add origin <link do repositorio> -> definir para onde o codigo sera enviado
+git push ele recomenda o codigo abaixo
+git push --set-upstream origin master -> manda para o repositorio na nuvem
+aparecerá diversas informações na tela, informando que o projeto foi adicionado
+
+voltando para o projeto no github, aparecerá uma mensagem informando que a branch master recebeu uma atualização
+entrando na branch pelo site mesmo poderá ser visto todos os arquivos que foram enviados
+
+
+
