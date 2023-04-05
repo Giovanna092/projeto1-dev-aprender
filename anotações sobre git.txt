@@ -97,5 +97,9 @@ apos isso:
 git merge <nome da branch que para puxar as atualizacoes>
 ex: git merge staging
 
+outra forma de fazer:
+criar nova branch
+git checkout -b <nomebranch>
+ex: git checkout -b sistema-de-login
 
 
