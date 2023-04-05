@@ -75,3 +75,20 @@ para mudar de branch:
 git checkout <nomeBranch>.. ex: git checkout staging -> agora a branch staging ficara marcada com * e com a cor da fonte verde
 
 agora toda modificacao que voce fizer ira para a branch atual
+
+lembrando... 
+quando voce cria uma branch nova, e voce precisar subi la para a nuvem
+execute o comando: 
+git push --set-upstream origin <nomebranch>
+
+
+como trazer atualizacoes de uma branch para a branch principal?
+utilizando merge
+
+unir codigo com a branch principal:
+entrar na branch principal
+ex: git checkout master
+
+apos isso:
+git merge <nome da branch que para puxar as atualizacoes>
+ex: git merge staging
