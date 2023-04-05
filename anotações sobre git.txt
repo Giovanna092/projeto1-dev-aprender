@@ -89,6 +89,11 @@ unir codigo com a branch principal:
 entrar na branch principal
 ex: git checkout master
 
+antes de fazer o merge:
+na branch principal execute:
+git pull  -> tras atualizacoes do servidor para a maquina local
+
 apos isso:
 git merge <nome da branch que para puxar as atualizacoes>
 ex: git merge staging
+
