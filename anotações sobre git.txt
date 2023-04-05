@@ -73,3 +73,5 @@ adicionar um <nome> para a branch no comando.. ex: git branch staging
 
 para mudar de branch: 
 git checkout <nomeBranch>.. ex: git checkout staging -> agora a branch staging ficara marcada com * e com a cor da fonte verde
+
+agora toda modificacao que voce fizer ira para a branch atual
