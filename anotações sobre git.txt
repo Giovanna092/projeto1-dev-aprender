@@ -48,3 +48,14 @@ assim é clonado o branch e o head remoto, geralmente main, ou master
 para clonar uma branch especifica usamos:
 git clone -b <branchname> <url do repositorio remoto>
 
+
+verificar historico de versoes
+git reflog -> mostra as versoes que foram adicionadas até o momento
+(é exibido em estilo de pilha, ultimo no topo)
+é exibido o id da versão (util para transitar entre versões) 
+a branch e o commit com sua mensagem personalizada
+
+
+voltar versao anterior (localmente)
+git reset --hard <id da versao>
+
