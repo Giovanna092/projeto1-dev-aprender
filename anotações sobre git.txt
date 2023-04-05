@@ -40,4 +40,11 @@ voltando para o projeto no github, aparecerá uma mensagem informando que a bran
 entrando na branch pelo site mesmo poderá ser visto todos os arquivos que foram enviados
 
 
+Clonando repositorio e selecionando uma branch especifica
+para clonar um repositorio usamos:
+git clone <url do repositorio remoto>
+assim é clonado o branch e o head remoto, geralmente main, ou master
+
+para clonar uma branch especifica usamos:
+git clone -b <branchname> <url do repositorio remoto>
 
