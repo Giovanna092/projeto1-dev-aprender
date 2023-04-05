@@ -2,4 +2,7 @@ Olá, meu nome é Giovanna!
 
 mudanca feita na branch staging
 
+utilidades de nova branch
+adicao de novas funcionalidades sem corromper o codigo que ja esta funcionando
+
 adicionando mudancas na branch principal
