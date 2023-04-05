@@ -94,12 +94,23 @@ na branch principal execute:
 git pull  -> tras atualizacoes do servidor para a maquina local
 
 apos isso:
-git merge <nome da branch que para puxar as atualizacoes>
+git merge <nome da branch usada para puxar as atualizacoes>
 ex: git merge staging
 
 outra forma de fazer:
 criar nova branch
-git checkout -b <nomebranch>
-ex: git checkout -b sistema-de-login
+git checkout -b <nomebranch> <branch base para gerar nova>
+ex: git checkout -b sistema-de-login master
+
+com esse comando voce ja estara na nova branch,
+feita as alterações volte para a branch principal
+- git checkout master
+atualize para ultima versao
+- git pull
+unir mudanças
+- git merge <nomebranch>
+enviar alterações
+- git push
+
 
 
